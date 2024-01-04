@@ -1,0 +1,7 @@
+
+OLED_ENABLE = yes
+ENCODER_ENABLE = yes
+VIA_ENABLE = yes
+RGBLIGHT_ENABLE = yes
+
+LTO_ENABLE = no
