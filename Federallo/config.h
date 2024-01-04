@@ -16,9 +16,9 @@ for more options.
 // Disabling some of these is a good way to save flash space.
 #    undef RGBLIGHT_EFFECT_ALTERNATING     // 108
 #    undef RGBLIGHT_EFFECT_RGB_TEST        // 158
-#    define RGBLIGHT_EFFECT_RAINBOW_MOOD    // 160
+#    undef RGBLIGHT_EFFECT_RAINBOW_MOOD    // 160
 #    define RGBLIGHT_EFFECT_STATIC_GRADIENT // 168
-#    define RGBLIGHT_EFFECT_RAINBOW_SWIRL   // 192
+#    undef RGBLIGHT_EFFECT_RAINBOW_SWIRL   // 192
 #    undef RGBLIGHT_EFFECT_BREATHING       // 348
 #    undef RGBLIGHT_EFFECT_KNIGHT          // 336
 #    undef RGBLIGHT_EFFECT_SNAKE           // 406
@@ -33,3 +33,9 @@ for more options.
 #define NO_ACTION_MACRO    // 0
 #define NO_ACTION_FUNCTION // 0
 #define DISABLE_LEADER     // 0
+			   //
+//defining encoders pulses registration per detent
+//#define ENCODERS_PAD_A_RIGHT { encdoer1a, encoder2a }
+//#define ENCODERS_PAD_B_RIGHT { encoder1b, encoder2b }
+//#define ENCODER_RESOLUTION_RIGHT { 1, 1 }
+
